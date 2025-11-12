@@ -4,7 +4,7 @@ import Link from "next/link";
 function page() {
   return (
     <div>
-      <h1>Services</h1>
+     
       <p>
         <Link href="services/seo">Seo</Link>{" "}
       </p>
