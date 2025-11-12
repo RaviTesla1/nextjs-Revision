@@ -1,10 +1,13 @@
 import React from "react";
 import Link from "next/link";
+export const metadata = {
+  title: 'Services',
+}
 
 function page() {
   return (
     <div>
-     
+      <h1>Services</h1>
       <p>
         <Link href="services/seo">Seo</Link>{" "}
       </p>
